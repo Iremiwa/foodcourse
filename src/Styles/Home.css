@@ -1,0 +1,26 @@
+#food {
+    height: 600px;
+    width: 800px;
+}
+
+.enroll-form {
+    margin: 70px;
+}
+
+h2 {
+    color: red;
+}
+
+.form-control {
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+#long-button {
+    margin: 40px 0;
+}
+
+#section2 {
+    background-color: lightgrey;
+}
+
