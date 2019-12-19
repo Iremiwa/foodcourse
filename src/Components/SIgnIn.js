@@ -2,6 +2,7 @@ import React from 'react';
 import Navbar from './Navbar';
 import {Container} from 'react-bootstrap';
 import '../Styles/SignIn.css';
+import {Link} from 'react-router-dom';
 
 function SignIn() {
     return(
@@ -37,7 +38,7 @@ function SignIn() {
                   <button type="submit" className="btn btn-primary btn-lg btn-block" >Continue with Facebook</button>
                   </div>
 
-                  <p>Haven't enrolled yet? <a href="#" id="signup">Sign up here</a></p>
+                  <p>Haven't enrolled yet? <Link to="/register"><a id="signup">Sign up here</a></Link></p>
                 </form>
               </div>
             </Container>
