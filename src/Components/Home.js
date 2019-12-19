@@ -1,8 +1,16 @@
 import React, {Component} from 'react';
 import Navbar from './Navbar';
-import food from '../Images/food.jpg';
-import '../Styles/Home.css'
+import food1 from '../Images/food1.jpg';
+import food2 from '../Images/food2.jpg';
+import food3 from '../Images/food3.jpg';
+import clubsandwich from '../Images/clubsandwich.jpg';
+import instructor from '../Images/instructor.jpg';
+import instructor1 from '../Images/instructor1.jpg';
+import instructor2 from '../Images/instructor2.jpg';
+import man from '../Images/man.jpg';
+import '../Styles/Home.css';
 import {Container} from 'react-bootstrap';
+
 class Home extends Component {
     
   render() { 
@@ -13,55 +21,98 @@ class Home extends Component {
 
         <Navbar />
 
-        <div className="row">
-          <div className="col">
-            <img src={food} alt="food-background" id="food" ></img>
+          <div id="section1">
+
+            <div id="myCarousel" className="carousel slide" data-ride="carousel">
+               
+                <ol className="carousel-indicators">
+                    <li data-target="#myCarousel" data-slide-to="0" className="active"></li>
+                    <li data-target="#myCarousel" data-slide-to="1"></li>
+                    <li data-target="#myCarousel" data-slide-to="2"></li>
+                </ol>
+               
+                <div className="carousel-inner">
+                    <div className="carousel-item active">
+                        <img src={clubsandwich} alt="First Slide" id="food" />
+                        <div class="carousel-caption d-none d-md-block">
+                        <h5>Learn From Top Chefs</h5>
+                        </div>
+                    </div>
+                    <div className="carousel-item">
+                        <img src={food2} alt="Second Slide" id="food" />
+                    </div>
+                    <div className="carousel-item">
+                        <img src={food3} alt="Third Slide" id="food" />
+                    </div>
+                </div>
+                
+                <a className="carousel-control-prev" href="#myCarousel" data-slide="prev">
+                    <span className="carousel-control-prev-icon"></span>
+                </a>
+                <a className="carousel-control-next" href="#myCarousel" data-slide="next">
+                    <span className="carousel-control-next-icon"></span>
+                </a>
+            </div>
+            
           </div>
-          <div className="col">
-            <Container>
-              <div class="enroll-form">
-                <form>
-                  <h2>Join our class for free</h2>
-                  <p>Join to access our curated list of adorable companions</p>
-                  <div className="form-group">
-                    <input type="email" className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="First Name" />
-                  </div>
-                  <div className="form-group">
-                    <input type="email" className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email" />
-                  </div>
-                  <div className="form-group">
-                    <input type="password" className="form-control" id="exampleInputPassword1" placeholder="Password" />
-                  </div>
-                  <div className="form-group form-check">
-                    <input type="checkbox" className="form-check-input" id="exampleCheck1" />
-                    <label className="form-check-label" for="exampleCheck1">I agree with terms of use, privacy policy and other conditions.</label>
-                  </div>
-                  <button type="submit" className="btn btn-danger btn-lg btn-block" id="long-button">Enroll</button>
-                </form>
-              </div>
-            </Container>
-          </div>
-        </div>
+        
 
         <div className="row" id="section2">
 
           <div className="col">
-            <h2>Why Be a Part?</h2> 
+          
+            <h2 id="part-text">Why Be a Part?</h2>
+
+            <div className="container">
+            <div className="row"> 
+              <div className="col-md-auto left-col" >1</div>
+              <div className="col right-col">
+                <p>Dolor veniam labore consectetur commodo aliqua. Officia magna deserunt elit occaecat 
+                  enim minim dolore adipisicing aute eiusmod. Qui proident in cillum sunt do adipisicing
+                   ullamco sit ex. 
+                </p>
+              </div>
+            </div>
+
+            <div className="row"> 
+              <div className="col-md-auto left-col" >2</div>
+              <div className="col right-col">
+                <p>Dolor veniam labore consectetur commodo aliqua. Officia magna deserunt elit occaecat 
+                  enim minim dolore adipisicing aute eiusmod. Qui proident in cillum sunt do adipisicing
+                   ullamco sit ex. 
+                </p>
+              </div>
+            </div>
+
+            <div className="row"> 
+              <div className="col-md-auto left-col" >3</div>
+              <div className="col right-col">
+                <p>Dolor veniam labore consectetur commodo aliqua. Officia magna deserunt elit occaecat 
+                  enim minim dolore adipisicing aute eiusmod. Qui proident in cillum sunt do adipisicing
+                   ullamco sit ex. 
+                </p>
+              </div>
+            </div>
+
+            </div>
           </div>
 
+          
+
           <div className="col">
-                        
+            <img src={man} id="man"></img>     
           </div>
         </div>
 
-        <div className="section4">
 
+        <div className="section3">
+        <Container>
           <h2>Popular Classes</h2>
           <p>Join our Classes</p>
-
-          <div class="card-deck">
+          
+          <div className="card-deck">
             <div className="card">
-              <img src="..." className="card-img-top" alt="..." />
+              <img src={food2} className="card-img-top class-img" alt="..." />
               <div className="card-body">
                 <h5 className="card-title">Card title</h5>
                 <p className="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
@@ -69,7 +120,7 @@ class Home extends Component {
               </div>
             </div>
             <div className="card">
-              <img src="..." className="card-img-top" alt="..." />
+              <img src={food3} className="card-img-top class-img" alt="..." />
               <div className="card-body">
                 <h5 className="card-title">Card title</h5>
                 <p className="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
@@ -77,20 +128,21 @@ class Home extends Component {
               </div>
             </div>
             <div className="card">
-              <img src="..." className="card-img-top" alt="..." />
+              <img src={food1} className="card-img-top class-img" alt="..." />
               <div className="card-body">
                 <h5 className="card-title">Card title</h5>
                 <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
                 <p className="card-text"><small className="text-muted">Last updated 3 mins ago</small></p>
               </div>
             </div>
+            
           </div>
 
           <h2>Top-class Instructors</h2>
 
-          <div class="card-deck">
+          <div className="card-deck">
             <div className="card">
-              <img src="..." className="card-img-top" alt="..." />
+              <img src={instructor1} className="card-img-top" alt="..." />
               <div className="card-body">
                 <h5 className="card-title">Card title</h5>
                 <p className="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
@@ -98,7 +150,7 @@ class Home extends Component {
               </div>
             </div>
             <div className="card">
-              <img src="..." className="card-img-top" alt="..." />
+              <img src={instructor} className="card-img-top" alt="..." />
               <div className="card-body">
                 <h5 className="card-title">Card title</h5>
                 <p className="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
@@ -106,7 +158,7 @@ class Home extends Component {
               </div>
             </div>
             <div className="card">
-              <img src="..." className="card-img-top" alt="..." />
+              <img src={instructor2} className="card-img-top" alt="..." />
               <div className="card-body">
                 <h5 className="card-title">Card title</h5>
                 <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
@@ -114,6 +166,7 @@ class Home extends Component {
               </div>
             </div>
           </div>
+          </Container>
         </div>
 
         <div className="section5">

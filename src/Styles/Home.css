@@ -1,6 +1,9 @@
 #food {
-    height: 600px;
-    width: 800px;
+    height: 650px;
+    width: 100%;
+}
+#section1{
+    height: 650px;
 }
 
 .enroll-form {
@@ -21,6 +24,55 @@ h2 {
 }
 
 #section2 {
-    background-color: lightgrey;
+    
+    height: 450px;
 }
 
+#image-overlay {
+    position: relative;
+
+}
+
+#text-block{
+    position: absolute;
+    top:150px;
+    left:80px;
+    color: white;
+    padding-left: 20px;
+    padding-right:20px;
+    background-color: transparent;
+    width:60%;
+    font-size: 50px;
+    font-weight: bold;
+    line-height: normal;
+}
+
+.class-img{
+    height: 55%;
+}
+
+#man{
+    height:100%;
+    width:50%;
+    margin-left: 100px;
+}
+
+.left-col{
+    font-size:50px;
+    margin-left: 20px;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+.right-col{
+    margin-top: 20px;
+}
+
+#part-text{
+    margin: 20px;
+    text-align: center;
+}
+
+.section3 {
+    background-color: ghostwhite;
+}
