@@ -24,7 +24,9 @@ function SignIn() {
                   <div className="form-group">
                     <input type="password" className="form-control" id="exampleInputPassword1" placeholder="Password" />
                   </div>
-                  <button type="submit" className="btn btn-danger btn-lg btn-block" id="signin-button">Sign In</button>
+                  <Link to="/dashboard">
+                    <button type="submit" className="btn btn-danger btn-lg btn-block" id="signin-button">Sign In</button>
+                  </Link>
                   <div className="form-group form-check">
                     <input type="checkbox" className="form-check-input" id="exampleCheck1" defaultChecked/>
                     <label className="form-check-label" for="exampleCheck1">Remember Me?</label>
