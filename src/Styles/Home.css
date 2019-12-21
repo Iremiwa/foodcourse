@@ -48,7 +48,7 @@ h2 {
 }
 
 .class-img{
-    height: 55%;
+    height: 60%;
 }
 
 #man{
@@ -74,5 +74,11 @@ h2 {
 }
 
 .section3 {
+    background-color: ghostwhite;
+    padding-top: 80px;
+}
+
+.section4 {
+    padding-top:80px;
     background-color: ghostwhite;
 }

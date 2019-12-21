@@ -1,5 +1,7 @@
 import React from 'react';
 import UserNavbar from './UserNavbar';
+import Classes from './Classes';
+import Instructors from './Instructors';
 import '../Styles/Dashboard.css';
 import food2 from '../Images/food2.jpg';
 import food1 from '../Images/food2.jpg';
@@ -99,8 +101,23 @@ function Dashboard() {
                             </div>
                             </div>   
                     </div>
-                </div>
+                
+
+            <div>
+
+                <h3 className="dashboard-titles">New and Worth Mentioning</h3>
+                <Classes />
             </div>
+
+            <div>
+                <h3 className="dashboard-titles">Top Class Instructors</h3>
+                <Instructors />
+            </div>
+
+            </div>
+            </div>
+
+            
         </React.Fragment>
     );
 }

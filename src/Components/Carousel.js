@@ -2,6 +2,7 @@ import React from 'react';
 import food2 from '../Images/food2.jpg';
 import food3 from '../Images/food3.jpg';
 import clubsandwich from '../Images/clubsandwich.jpg';
+import '../Styles/Carousel.css';
 
 function Carousel() {
     return (
@@ -16,16 +17,28 @@ function Carousel() {
                
                 <div className="carousel-inner">
                     <div className="carousel-item active">
+                        <div className="transparent-text-block1">
                         <img src={clubsandwich} alt="First Slide" id="food" />
-                        <div class="carousel-caption d-none d-md-block">
-                        <h5>Learn From Top Chefs</h5>
+                        <div className="content1">
+                        <h1>Learn From Top Chefs</h1>
+                        </div>
                         </div>
                     </div>
                     <div className="carousel-item">
+                        <div className="transparent-text-block1">
                         <img src={food2} alt="Second Slide" id="food" />
+                        <div className="content1">
+                        <h1>Be a Part of this top quality cooking and learning experience</h1>
+                        </div>
+                        </div>
                     </div>
                     <div className="carousel-item">
+                        <div className="transparent-text-block1">
                         <img src={food3} alt="Third Slide" id="food" />
+                        <div className="content1">
+                        <h1>Share Your Recipes Live</h1>
+                        </div>
+                        </div>
                     </div>
                 </div>
                 

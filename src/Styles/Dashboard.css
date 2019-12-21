@@ -92,3 +92,9 @@ p {
   width: 95%; /* Full width */
   padding: 20px; /* Some padding */
 }
+
+.dashboard-titles {
+    margin-top: 40px;
+    margin-left:30px;
+    color:red;
+}
