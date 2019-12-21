@@ -1,7 +1,7 @@
 #logo {
     color: red;
     font-weight: bold;
-    margin-left: 70px;
+    margin-left: 30px;
 }
 
 .btn{
@@ -13,7 +13,8 @@
 }
 
 #logoicon{
-    height: 25px;
+    height: 35px;
     padding-right: 10px;
     padding-bottom: 3px;
+    width: 50px;
 }

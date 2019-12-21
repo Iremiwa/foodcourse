@@ -1,0 +1,94 @@
+#search {
+    margin: 0 auto;
+}
+
+#navbarsection{
+    margin-left: 500px;
+}
+
+#vertical-nav{
+    border-width: 1px;
+    box-sizing: content-box;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 5px 0 rgba(0, 0, 0, 0.19);
+    width: 250px;
+    height: 600px;
+    padding-top: 30px;
+    float: left;
+    
+}
+
+a{
+    text-decoration: none;
+    color: black;
+   
+}
+
+a:hover {
+    text-decoration: none;
+    color: red;
+}
+
+.vertical-nav-item{
+    border-bottom: 1px solid;
+    border-bottom-color: lightgray;
+    border-bottom-left-radius: 5px;
+    margin: 5px 15px 10px 15px;
+}
+
+.vertical-nav-section {
+    margin-top: 70px;
+}
+
+#main-section{
+    margin: 20px 0px 10px 30px;
+    
+}
+
+#foodimg {
+    height: 400px;
+    width: 95%;
+    border-radius: 5px;
+}
+
+#live-classes {
+    font-size: 20px;
+    border-bottom: 1px solid;
+    border-bottom-color: lightgray;
+}
+
+.upcoming-classes {
+   margin-right: 80px;
+  
+}
+
+#upcoming-img {
+    height: 78%;
+    width: 90px;
+    margin-top: 30px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+p {
+   margin: 2px !important;
+}
+
+.upcoming-right-col{
+    margin-top: 30px;
+}
+
+.transparent-text-block {
+    position: relative;
+  max-width: 800px; /* Maximum width */
+  margin: 0 auto;
+}
+
+.transparent-text-block .content {
+  position: absolute; /* Position the background text */
+  bottom: 0; /* At the bottom. Use top:0 to append it to the top */
+  background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+  color: #f1f1f1; /* Grey text */
+  width: 95%; /* Full width */
+  padding: 20px; /* Some padding */
+}

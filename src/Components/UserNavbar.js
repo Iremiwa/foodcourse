@@ -3,7 +3,7 @@ import '../Styles/Navbar.css';
 import heart from '../Images/heart.png'
 import {Link} from 'react-router-dom';
 
-function Navbar() {
+function UserNavbar() {
 
     return(
         
@@ -19,12 +19,12 @@ function Navbar() {
         </button>
         
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
-          <form className="form-inline my-2 my-lg-0">
-            <div id="button">
-              <Link to="/signin"><button className="btn btn-outline-danger my-2 my-sm-0 " type="submit">Sign In</button></Link>
-              <Link to="/register"><button className="btn btn-danger my-2 my-sm-0" type="submit">Register</button></Link>
-            </div>
-          </form>
+          <div id="navbarsection"> 
+            <form className="form-inline my-2 my-lg-0">
+                <input className=" form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" id="search" />
+                <button className="btn btn-outline-danger my-2 my-sm-0" type="submit">Search</button>
+            </form>
+          </div> 
         </div>
       </nav>
         
@@ -32,4 +32,4 @@ function Navbar() {
 }
 
 
-export default Navbar;
+export default UserNavbar;
