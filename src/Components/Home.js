@@ -3,6 +3,7 @@ import Navbar from './Navbar';
 import Carousel from './Carousel';
 import Instructors from './Instructors';
 import Classes from './Classes';
+import Contact from './Contact';
 import man from '../Images/man.jpg';
 import '../Styles/Home.css';
 import {Container} from 'react-bootstrap';
@@ -86,7 +87,7 @@ class Home extends Component {
         </div>
 
         <div className="section5">
-          
+          <Contact />
         </div>
 
       </React.Fragment>

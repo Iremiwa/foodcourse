@@ -20,7 +20,7 @@ function Carousel() {
                         <div className="transparent-text-block1">
                         <img src={clubsandwich} alt="First Slide" id="food" />
                         <div className="content1">
-                        <h1>Learn From Top Chefs</h1>
+                        <p>Learn From Top Chefs</p>
                         </div>
                         </div>
                     </div>
@@ -28,7 +28,7 @@ function Carousel() {
                         <div className="transparent-text-block1">
                         <img src={food2} alt="Second Slide" id="food" />
                         <div className="content1">
-                        <h1>Be a Part of this top quality cooking and learning experience</h1>
+                        <p>Be a Part of this top quality cooking and learning experience</p>
                         </div>
                         </div>
                     </div>
@@ -36,7 +36,7 @@ function Carousel() {
                         <div className="transparent-text-block1">
                         <img src={food3} alt="Third Slide" id="food" />
                         <div className="content1">
-                        <h1>Share Your Recipes Live</h1>
+                        <p>Share Your Recipes Live</p>
                         </div>
                         </div>
                     </div>

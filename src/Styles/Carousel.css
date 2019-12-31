@@ -1,5 +1,5 @@
 .transparent-text-block1 {
-    position: relative;
+  position: relative;
   max-width: 100%; /* Maximum width */
   margin: 0 auto;
 }
@@ -13,4 +13,10 @@
   width: 100%; /* Full width */
   height:100%;
   padding: 20px; /* Some padding */
+}
+
+.content1 {
+  font-size: 80px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   
 }

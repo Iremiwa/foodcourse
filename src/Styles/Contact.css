@@ -1,0 +1,36 @@
+.contact-form {
+    border-style: outset;
+    border-width: 0px;
+    margin: 60px auto;
+    box-sizing: content-box;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 900px;
+    height: 400px;
+    padding: 0;
+}
+
+.get-in-touch {
+    background-color: tomato;
+    display: block;
+    float: left;
+    width:350px;
+    height: 400px;
+    padding: 40px 15px 10px 30px;
+    
+}
+
+.say-something{
+    display: block;
+    float: right;
+    width: 550px;
+    padding: 40px 40px 10px 40px;
+}
+
+.left-col1 {
+    margin-top: 20px;
+   
+}
+
+.right-col1 {
+    margin-top: 15px;
+}
