@@ -5,6 +5,7 @@ import Instructors from './Instructors';
 import '../Styles/Dashboard.css';
 import food2 from '../Images/food2.jpg';
 import food1 from '../Images/food2.jpg';
+import { Link } from 'react-router-dom/cjs/react-router-dom.min';
 
 function Dashboard() {
     return (
@@ -28,9 +29,11 @@ function Dashboard() {
                     <li className="nav-item">
                         <a className="nav-link vertical-nav-item" href="#">Highly Rated</a>
                     </li>
+                    <Link to = '/live'>
                     <li className="nav-item">
                         <a className="nav-link vertical-nav-item" href="#">Live</a>
                     </li>
+                    </Link>
                 </ul>
                 <div className="vertical-nav-section">
                 <ul className="nav flex-column">

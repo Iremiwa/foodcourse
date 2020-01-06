@@ -4,6 +4,7 @@ import Home from './Components/Home';
 import SignIn from './Components/SIgnIn';
 import Register from './Components/Register';
 import Dashboard from './Components/Dashboard';
+import LiveStream from './Components/LiveStream';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Route path="/signin" component={SignIn} />
       <Route path="/register" component={Register} />
       <Route path="/dashboard" component={Dashboard} />
+      <Route path="/live" component={LiveStream} />
 
     </Router>
   );
