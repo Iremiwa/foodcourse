@@ -17,16 +17,17 @@ function Carousel() {
                
                 <div className="carousel-inner">
                     <div className="carousel-item active">
-                        <div className="transparent-text-block1">
-                        <img src={clubsandwich} alt="First Slide" id="food" />
-                        <div className="content1">
+                        <div className="transparent-text-block1 ">
+                        <img src={clubsandwich} alt="First Slide" className=" food " />
+                        <div  className = "content1">
+
                         <p>Learn From Top Chefs</p>
                         </div>
                         </div>
                     </div>
                     <div className="carousel-item">
                         <div className="transparent-text-block1">
-                        <img src={food2} alt="Second Slide" id="food" />
+                        <img src={food2} alt="Second Slide" className=" food" />
                         <div className="content1">
                         <p>Be a Part of this top quality cooking and learning experience</p>
                         </div>
@@ -34,9 +35,9 @@ function Carousel() {
                     </div>
                     <div className="carousel-item">
                         <div className="transparent-text-block1">
-                        <img src={food3} alt="Third Slide" id="food" />
+                        <img src={food3} alt="Third Slide" className=" food" />
                         <div className="content1">
-                        <p>Share Your Recipes Live</p>
+                        <p >Share Your Recipes Live</p>
                         </div>
                         </div>
                     </div>

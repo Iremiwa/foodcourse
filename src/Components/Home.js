@@ -4,7 +4,7 @@ import Carousel from './Carousel';
 import Instructors from './Instructors';
 import Classes from './Classes';
 import Contact from './Contact';
-import man from '../Images/man.jpg';
+import capturedman1 from '../Images/capturedman1.png';
 import '../Styles/Home.css';
 import {Container} from 'react-bootstrap';
 
@@ -25,20 +25,20 @@ class Home extends Component {
 
         <div className="row" id="section2">
 
-          <div className="col">
+          <div className="col-md-6">
           
             <h2 id="part-text">Why Be a Part?</h2>
 
             <div className="container">
-            <div className="row"> 
-              <div className="col-md-auto left-col" >1</div>
-              <div className="col right-col">
-                <p>Dolor veniam labore consectetur commodo aliqua. Officia magna deserunt elit occaecat 
-                  enim minim dolore adipisicing aute eiusmod. Qui proident in cillum sunt do adipisicing
-                   ullamco sit ex. 
-                </p>
+              <div className="row"> 
+                <div className="col-md-auto left-col" >1</div>
+                <div className="col right-col">
+                  <p>Dolor veniam labore consectetur commodo aliqua. Officia magna deserunt elit occaecat 
+                    enim minim dolore adipisicing aute eiusmod. Qui proident in cillum sunt do adipisicing
+                    ullamco sit ex. 
+                  </p>
+                </div>
               </div>
-            </div>
 
             <div className="row"> 
               <div className="col-md-auto left-col" >2</div>
@@ -65,8 +65,8 @@ class Home extends Component {
 
           
 
-          <div className="col">
-            <img src={man} id="man"></img>     
+          <div className="col-6 col-md-4">
+            <img src={capturedman1} id="man"></img>     
           </div>
         </div>
 

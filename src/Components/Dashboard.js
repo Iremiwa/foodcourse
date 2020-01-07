@@ -58,7 +58,7 @@ function Dashboard() {
                             <div class="row">
                                 <div class="col">
                                 <div className="transparent-text-block">
-                                <img src={food2} alt="..." id="foodimg" />
+                                <img src={food2} alt="Chicken stir fry" id="foodimg" />
                                 <div className="content">
                                 <h1>Pan Griled Chicken & Stir-fry Vegetables</h1>
                                 <h5>By Adrian Lacoste</h5>
