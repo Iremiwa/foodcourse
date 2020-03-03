@@ -8,9 +8,9 @@ function Contact() {
     
         return ( 
             <React.Fragment>
-                <div className="contact-form">
-                    <div className=" ">
-                        <div className="get-in-touch">
+                <div className="get-in-touch-section">
+                <div className="row">
+                        <div className=" col get-in-touch">
                             <h3>GET IN TOUCH</h3>
                             <p>Ea in nisi elit elit sit amet velit. Nulla voluptate culpa id consequat commodo anim elit nisi enim ad. Irure nostrud nisi voluptate est et deserunt.
                             </p>
@@ -38,7 +38,8 @@ function Contact() {
                             <p>STAY CONNECTED</p>
                             
                         </div>
-                        <div className="say-something">
+
+                        <div className="col say-something">
                             <h3>SAY SOMETHING</h3>
 
                             <form>
@@ -56,7 +57,8 @@ function Contact() {
                                 <textarea className="form-control" rows="3" /> 
                             </form>
                         </div>
-                    </div>
+                    
+                </div>
                 </div>
             </React.Fragment>
          );

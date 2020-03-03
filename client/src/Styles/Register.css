@@ -8,3 +8,24 @@
     padding: 35px 60px;
     
 }
+
+@media screen and (min-width: 979px) and (max-width: 1024px) {
+    .enroll-form {
+        width: 500px;
+        
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width:360px) {
+    .enroll-form {
+        width: 220px;
+        padding: 25px 15px;
+    }
+}
+
+@media screen and (min-width: 361px) and (max-width:574px) {
+    .enroll-form {
+        width: 230px;
+        padding: 25px 30px;
+    }
+}

@@ -1,13 +1,18 @@
 import React from 'react';
-import UserNavbar from './UserNavbar';
-import Classes from './Classes';
-import Instructors from './Instructors';
-import '../Styles/Dashboard.css';
-import food2 from '../Images/food2.jpg';
-import food1 from '../Images/food2.jpg';
+import UserNavbar from '../UserNavbar';
+import Classes from '../Classes';
+import Instructors from '../Instructors';
+import '../../Styles/Dashboard.css';
+import food2 from '../../Images/food2.jpg';
+
 import { Link } from 'react-router-dom/cjs/react-router-dom.min';
 
-function Dashboard() {
+
+class Dashboard extends React.Component {
+    
+
+  render() {
+      
     return (
         <React.Fragment>
 
@@ -15,6 +20,7 @@ function Dashboard() {
        
             <div className="row">
                 <div className="col-md-auto" >
+
             <div id="vertical-nav">
                 <ul className="nav flex-column">
                     <li className="nav-item">
@@ -123,6 +129,7 @@ function Dashboard() {
             
         </React.Fragment>
     );
+}
 }
 
 export default Dashboard;

@@ -30,3 +30,27 @@ hr {
 .live-comments {
     margin-top: 40px;
 }
+
+@media screen and (min-width:978px) and (max-width: 1024px) {
+    
+}
+
+@media screen and (min-width: 575px) and (max-width: 979px) {
+    .liveVideo {  
+        height: 400px;
+        
+    }
+    .live-card {
+        margin-left: 40px;
+        width: 80%;
+        height: 300px;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width:360px) {
+    
+}
+
+@media screen and (min-width: 361px) and (max-width:574px) {
+    
+}

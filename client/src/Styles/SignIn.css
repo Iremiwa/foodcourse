@@ -43,3 +43,56 @@ span{
 #signup:hover{
     text-decoration: none;
 }
+
+
+@media screen and (min-width: 361px) and (max-width:574px) {
+    .signin-form {
+        width: 250px;
+        padding: 20px 30px;
+    }
+
+    #continue-buttons{
+        margin-top: 70px;
+        margin-left: 2px;
+        width: 250px;
+    }
+
+    #forgot-password{
+        float: left;
+    }
+}
+
+@media screen and (min-width: 340px) and (max-width:360px) {
+    .signin-form {
+        width: 250px;
+        padding: 20px 17px;
+    }
+
+    #continue-buttons{
+        margin-top: 70px;
+        margin-left: 2px;
+        width: 250px;
+    }
+
+    #forgot-password{
+        float: left;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width:339px) {
+    .signin-form {
+        width: 230px;
+        padding: 20px 12px;
+    }
+
+    #continue-buttons{
+        margin-top: 70px;
+        margin-left: 2px;
+        width: 230px;
+    }
+
+    #forgot-password{
+        float: left;
+    }
+}
+
