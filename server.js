@@ -15,9 +15,9 @@ app.use('/api/users', require('./routes/api/users'));
 app.use('/api/auth', require('./routes/api/auth'));
 
  require("dotenv").config();
-// const url = process.env.ATLAS_URI;
+ const url = process.env.ATLAS_URI;
 
-const url = require("./config/keys").mongoURI;
+// const url = require("./config/keys").mongoURI;
 
 mongoose.connect(url, { useNewUrlParser: true, useUnifiedTopology: true, useCreateIndex: true },
     () => {
@@ -36,6 +36,10 @@ mongoose.connect(url, { useNewUrlParser: true, useUnifiedTopology: true, useCrea
     app.get("*", (req, res) => {
       res.sendFile(path.join(__dirname, "client", "build", "index.html"));
   });
+
+  if(process.env.NODE_ENV === 'production') {
+    app.use(express.static('client/build'));
+  }
 
 
 const port = process.env.PORT || 8080;
