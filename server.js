@@ -1,13 +1,15 @@
 const express = require("express");
 const mongoose = require("mongoose");
 const passport = require("passport");
-const config = require("config");
+// const config = require("config");
+const cors = require('cors');
 const path = require("path");
 
 const users = require("./routes/api/users");
 
 const app = express();
 
+app.use(cors());
 app.use(express.json);
 app.use(express.static(path.join(__dirname, "client", "build")));
 
