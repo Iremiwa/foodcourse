@@ -1,11 +1,11 @@
 const express = require("express");
 const mongoose = require("mongoose");
-const passport = require("passport");
+// const passport = require("passport");
 // const config = require("config");
 const cors = require('cors');
 const path = require("path");
 
-const users = require("./routes/api/users");
+// const users = require("./routes/api/users");
 
 const app = express();
 
@@ -13,8 +13,8 @@ app.use(cors());
 app.use(express.json);
 app.use(express.static(path.join(__dirname, "client", "build")));
 
-app.use('/api/users', require('./routes/api/users'));
-app.use('/api/auth', require('./routes/api/auth'));
+// app.use('/api/users', require('./routes/api/users'));
+// app.use('/api/auth', require('./routes/api/auth'));
 
  require("dotenv").config();
  const url = process.env.ATLAS_URI;
@@ -29,11 +29,11 @@ mongoose.connect(url, { useNewUrlParser: true, useUnifiedTopology: true, useCrea
   .catch(err => console.log(err));
 
 
-    app.use(passport.initialize());
+    // app.use(passport.initialize());
     
-    require("./config/passport")(passport);
+    // require("./config/passport")(passport);
     
-    app.use("/api/users", users);
+    // app.use("/api/users", users);
 
     app.get("*", (req, res) => {
       res.sendFile(path.join(__dirname, "client", "build", "index.html"));
