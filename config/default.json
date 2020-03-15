@@ -1,5 +1,0 @@
-{
-    "ATLAS_URI" : "mongodb+srv://Iretomiwa:iretomiwa17@foodcourse-qxex5.mongodb.net/test?retryWrites=true&w=majority",
-    "jwtSecret" : "foodcourse_secret"
-
-}
